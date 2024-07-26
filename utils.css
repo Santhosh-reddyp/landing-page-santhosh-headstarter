@@ -1,0 +1,101 @@
+/* Utility Classes */
+
+/* Global Reset */
+* {
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Updated font */
+}
+
+/* Flex Utilities */
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* Centering and Spacing */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Spacing Utilities */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.my-1 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.my-2 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.px-2 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Background Colors */
+.bg-red {
+    background-color: #ff5722; /* Updated to a more attractive color */
+}
+
+/* Text Colors */
+.text-blue {
+    color: #00bcd4; /* Updated to a cooler, vibrant blue */
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 24px; /* Increased padding for better aesthetics */
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 8px; /* Slightly rounded corners */
+    cursor: pointer;
+    color: #ffffff; /* White text */
+    background-color: #ff5722; /* Orange background */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
+/* Overflow Utilities */
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+/* Font Styles */
+.font-bold {
+    font-weight: 700; /* Bold font weight */
+}
